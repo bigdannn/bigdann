@@ -1,3 +1,5 @@
+package Polygon;
+
 import Utils.StudentsServiceImpl;
 
 import java.sql.SQLException;
@@ -17,5 +19,9 @@ public class Testing {
         jd.getByName("Vekichko Egor");
         System.out.println("----------------------");
         jd.getByIds(studentCode);
+        System.out.println("----------------------");
+        jd.addStudent(4040, "Bozhe Konchene", 404, "12.20.2001");
+        System.out.println("----------------------");
+        jd.deleteStudent(4040);
     }
 }

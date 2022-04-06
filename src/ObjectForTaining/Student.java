@@ -1,4 +1,4 @@
-package Utils;
+package ObjectForTaining;
 
 public class Student {
 
